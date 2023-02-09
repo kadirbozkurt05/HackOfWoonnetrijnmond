@@ -25,9 +25,9 @@ public class MainPage {
     @FindBy(xpath = "//a[.='Aanbod']")
     public WebElement goToMainPage;
 
-    @FindBy(xpath = "//span[.='Inschrijfduur']/../../..")
+    @FindBy(xpath = "//span[.='DirectKans']/../../..")
     public WebElement house1;
-    @FindBy(xpath = "(//span[.='Inschrijfduur']/../../..)[2]")
+    @FindBy(xpath = "(//span[.='DirectKans']/../../..)[2]")
     public WebElement house2;
 
     @FindBy(xpath = "//a[@title='Perfect! Deze woning wil ik.']")
