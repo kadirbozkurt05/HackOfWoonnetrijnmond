@@ -10,8 +10,6 @@ public class MainPage {
         PageFactory.initElements(Driver.getDriver(),this);
     }
 
-    @FindBy(xpath = "//a[@title='Inloggen/inschrijven']")
-    public WebElement loginButton;
 
     @FindBy(id = "username")
     public WebElement usernameInput;

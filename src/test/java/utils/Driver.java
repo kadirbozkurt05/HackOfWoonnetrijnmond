@@ -20,8 +20,8 @@ public class Driver {
     public static WebDriver getDriver(){
 
         if (driver.get()==null) {
-                    WebDriverManager.firefoxdriver().setup();
-                    driver.set(new FirefoxDriver());
+                    WebDriverManager.chromedriver().setup();
+                    driver.set(new ChromeDriver());
                     driver.get().manage().window().maximize();
                     driver.get().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             }
